@@ -1,0 +1,30 @@
+﻿@using  Kyrsach.Models
+@using Kyrsach.Controllers
+@model Kyrsach.Models.Test
+
+<fieldset>
+    <legend>Test</legend>
+  
+    <div class="display-label">
+         Наименование
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         Тема
+    </div>
+
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Thema)
+    </div>
+   
+        <h2> Преподавателям: </h2> @Html.ActionLink("Добавить лекционный материал к тесту", "Create", "Home", new { id = Model.IdTest }, null)
+        <h2> Студентам: </h2> @Html.ActionLink("Пройти тест", "Create", "Comment", new { id = Model.IdTest }, null)
+
+
+</fieldset>
+<p>
+    @Html.ActionLink("Назад", "Index")
+</p>

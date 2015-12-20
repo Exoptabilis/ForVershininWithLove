@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="Articles">
+    <Key>
+      <PropertyRef Name="IdArticle" />
+    </Key>
+    <Property Name="IdArticle" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="thema" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="dataAdd" Type="datetime" Nullable="false" />
+    <Property Name="idTest" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="IdComment" />
+    </Key>
+    <Property Name="IdComment" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dataAdd" Type="datetime" Nullable="false" />
+    <Property Name="idTest" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Mark" Type="int" />
+    <Property Name="Answer1" Type="nchar" MaxLength="10" />
+    <Property Name="Answer2" Type="nchar" MaxLength="10" />
+    <Property Name="Answer3" Type="nchar" MaxLength="10" />
+    <Property Name="Answer4" Type="nchar" MaxLength="10" />
+    <Property Name="Answer5" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="IdTest" />
+    </Key>
+    <Property Name="IdTest" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Thema" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Question1" Type="nchar" MaxLength="10" />
+    <Property Name="Question2" Type="nchar" MaxLength="10" />
+    <Property Name="Question3" Type="nchar" MaxLength="10" />
+    <Property Name="Question4" Type="nchar" MaxLength="10" />
+    <Property Name="Question5" Type="nchar" MaxLength="10" />
+    <Property Name="Answer1" Type="nchar" MaxLength="10" />
+    <Property Name="Answer2" Type="nchar" MaxLength="10" />
+    <Property Name="Answer3" Type="nchar" MaxLength="10" />
+    <Property Name="Answer4" Type="nchar" MaxLength="10" />
+    <Property Name="Answer5" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Articles_ToTable">
+    <End Role="Test" Type="Self.Test" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Articles" Type="Self.Articles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="IdTest" />
+      </Principal>
+      <Dependent Role="Articles">
+        <PropertyRef Name="idTest" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_ToTable">
+    <End Role="Test" Type="Self.Test" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="IdTest" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="idTest" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="Articles" EntityType="Self.Articles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comments" EntityType="Self.Comments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Test" EntityType="Self.Test" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Articles_ToTable" Association="Self.FK_Articles_ToTable">
+      <End Role="Test" EntitySet="Test" />
+      <End Role="Articles" EntitySet="Articles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_ToTable" Association="Self.FK_Comments_ToTable">
+      <End Role="Test" EntitySet="Test" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

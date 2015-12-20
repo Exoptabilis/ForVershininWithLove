@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Kyrsach.Models.Article>
+@using Kyrsach.Controllers
+
+<p>
+    @using (Html.BeginForm())
+    {
+        <p>
+            Название статьи:  @Html.TextBox("nazvanie")
+            <br />
+            <input type="submit" value="Найти статью" />
+        </p>
+    }
+</p>
+<table>
+    <tr>
+        <th>
+            Нименование
+        </th>
+        <th>
+            Тема
+        </th>
+        <th>
+            Дата добавления
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.thema)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dataAdd)
+        </td>
+        <td>
+            @Html.ActionLink("Просмотреть", "Details", new { id = item.IdArticle }) |
+            @Html.ActionLink("Изменить", "Edit", new {  id=item.IdArticle  }) |
+            @Html.ActionLink("Удалить", "Delete", new {  id=item.IdArticle   })
+        </td>
+    </tr>
+}
+
+</table>

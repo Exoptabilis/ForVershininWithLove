@@ -1,0 +1,50 @@
+﻿@using  Kyrsach.Models
+@using Kyrsach.Controllers
+@model Kyrsach.Models.Article
+
+<fieldset>
+    <legend>Article</legend>
+
+  
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.thema)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.thema)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.text)
+    </div>
+    <div class="display-field">
+       @Html.TextAreaFor(model => model.text, 0, 100, new { @readonly = true })
+    </div>
+
+    <h2> Жалобы </h2>   @Html.ActionLink("Добавить", "Create", "Complain", new { id=Model.IdArticle  }, null)
+    <ul>
+        @foreach (Complain c in Model.Complains)
+        {
+            <li> @c.type @Html.ActionLink("Просмотреть", "Details", "Complain", new {  id=c.IdComplain }, null)
+                @Html.ActionLink("Изменить", "Edit", "Complain", new {  id=c.IdComplain }, null) </li>
+        }
+    </ul>
+    <h2> Комментарии </h2> @Html.ActionLink("Добавить", "Create", "Comment", new { id=Model.IdArticle  }, null)
+    <ul>
+        @foreach (Comment c in Model.Comments)
+        {
+            <li> @c.dataAdd @Html.ActionLink("Просмотреть", "Details", "Comment", new {  id=c.IdComment }, null)
+                @Html.ActionLink("Изменить", "Edit", "Comment", new {  id=c.IdComment }, null)  </li>
+        }
+    </ul>
+</fieldset>
+<p>
+    @Html.ActionLink("Назад", "Index") |
+    @Html.ActionLink("Изменить", "Edit", new {  id=Model.IdArticle }) 
+</p>

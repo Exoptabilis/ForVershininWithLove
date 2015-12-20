@@ -1,0 +1,132 @@
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Kyrsach.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Kyrsach.pdb
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Antlr3.Runtime.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.Core.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\EntityFramework.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Newtonsoft.Json.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Net.Http.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Net.Http.WebRequest.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Helpers.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Mvc.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Optimization.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Razor.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.WebPages.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\WebGrease.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\WebMatrix.Data.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\WebMatrix.WebData.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\EntityFramework.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Newtonsoft.Json.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Net.Http.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Net.Http.WebRequest.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Helpers.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Mvc.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.Razor.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.WebPages.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\WebMatrix.Data.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\WebMatrix.WebData.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.Core.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\EntityFramework.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Net.Http.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Net.Http.WebRequest.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\obj\Debug\Kyrsach.csprojResolveAssemblyReference.cache
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\obj\Debug\Kyrsach.dll
+C:\Users\Maus\Documents\Visual Studio 2012\Projects\Kyrsach\Kyrsach\obj\Debug\Kyrsach.pdb
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Kyrsach.dll.config
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Kyrsach.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Kyrsach.pdb
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Antlr3.Runtime.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\EntityFramework.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Newtonsoft.Json.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Net.Http.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Net.Http.Formatting.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Net.Http.WebRequest.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Helpers.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Http.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Http.WebHost.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Mvc.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Optimization.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Razor.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.WebPages.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\WebGrease.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\WebMatrix.Data.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\WebMatrix.WebData.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\EntityFramework.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Newtonsoft.Json.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Net.Http.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Net.Http.Formatting.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Net.Http.WebRequest.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Helpers.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Http.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Http.WebHost.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Mvc.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.Razor.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.WebPages.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\WebMatrix.Data.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\WebMatrix.WebData.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\EntityFramework.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Net.Http.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Net.Http.WebRequest.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.Http.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\obj\Debug\Kyrsach.dll
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\obj\Debug\Kyrsach.pdb
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\obj\Debug\Kyrsach.csprojResolveAssemblyReference.cache
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Kyrsach.dll.CodeAnalysisLog.xml
+C:\Users\Sukhanov\Desktop\ВлГУ\3курс\Вершинин\Курсач\kyrsach-svn-3\Kyrsach\bin\Kyrsach.dll.lastcodeanalysissucceeded

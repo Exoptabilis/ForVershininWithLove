@@ -1,0 +1,119 @@
+﻿@model Kyrsach.Models.Test
+
+<div class="content">
+    <h2>Create</h2>
+
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Test</legend>
+            <div hidden class="editor-field">
+                @Html.EditorFor(model => model.Date)
+            </div>
+              <div class="editor-label">
+                  @Html.Label("Название") 
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Name) 
+                  @Html.ValidationMessageFor(model => model.Name) 
+              </div>
+
+              <div class="editor-label">
+                  @Html.Label("Тема") 
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Thema) 
+                  @Html.ValidationMessageFor(model => model.Thema) 
+              </div>
+
+              <div class="editor-label">
+                  @Html.Label("Вопрос 1")
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Question1)
+                  @Html.ValidationMessageFor(model => model.Question1)
+              </div>
+
+              <div class="editor-label">
+                  @Html.LabelFor(model => model.Answer1)
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Answer1)
+                  @Html.ValidationMessageFor(model => model.Answer1)
+              </div>
+
+              <div class="editor-label">
+                  @Html.Label("Вопрос 2")
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Question2)
+                  @Html.ValidationMessageFor(model => model.Question2)
+              </div>
+
+              <div class="editor-label">
+                  @Html.LabelFor(model => model.Answer2)
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Answer2)
+                  @Html.ValidationMessageFor(model => model.Answer2)
+              </div>
+
+              <div class="editor-label">
+                  @Html.Label("Вопрос 3")
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Question3) 
+                  @Html.ValidationMessageFor(model => model.Question3) 
+              </div>
+
+              <div class="editor-label">
+                  @Html.LabelFor(model => model.Answer3)
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Answer3)
+                  @Html.ValidationMessageFor(model => model.Answer3) 
+              </div>
+
+              <div class="editor-label">
+                  @Html.Label("Вопрос 4")
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Question4) 
+                  @Html.ValidationMessageFor(model => model.Question4) 
+              </div>
+
+              <div class="editor-label">
+                  @Html.LabelFor(model => model.Answer4)
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Answer4)
+                  @Html.ValidationMessageFor(model => model.Answer4)
+              </div>
+
+              <div class="editor-label">
+                  @Html.Label("Вопрос 5")
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Question5)
+                  @Html.ValidationMessageFor(model => model.Question5)
+              </div>
+
+              <div class="editor-label">
+                  @Html.LabelFor(model => model.Answer5)
+              </div>
+              <div class="editor-field">
+                  @Html.EditorFor(model => model.Answer5)
+                  @Html.ValidationMessageFor(model => model.Answer5)
+              </div>
+            <input type="submit" value="Создать тест" />
+        </fieldset>
+    }
+    <p>
+        @Html.ActionLink("Вернуться", "Index")
+    </p>
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

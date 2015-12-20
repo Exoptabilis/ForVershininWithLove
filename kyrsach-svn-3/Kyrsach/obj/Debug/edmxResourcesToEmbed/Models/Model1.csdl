@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Articles" EntityType="Database1Model.Article" />
+    <EntitySet Name="Comments" EntityType="Database1Model.Comment" />
+    <EntitySet Name="Tests" EntityType="Database1Model.Test" />
+    <AssociationSet Name="FK_Articles_ToTable" Association="Database1Model.FK_Articles_ToTable">
+      <End Role="Test" EntitySet="Tests" />
+      <End Role="Article" EntitySet="Articles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_ToTable" Association="Database1Model.FK_Comments_ToTable">
+      <End Role="Test" EntitySet="Tests" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Article">
+    <Key>
+      <PropertyRef Name="IdArticle" />
+    </Key>
+    <Property Name="IdArticle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="thema" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="text" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="dataAdd" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="idTest" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="Database1Model.FK_Articles_ToTable" FromRole="Article" ToRole="Test" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="IdComment" />
+    </Key>
+    <Property Name="IdComment" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dataAdd" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="idTest" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Mark" Type="Int32" />
+    <NavigationProperty Name="Test" Relationship="Database1Model.FK_Comments_ToTable" FromRole="Comment" ToRole="Test" />
+    <Property Name="Answer1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer2" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer3" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer4" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer5" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="IdTest" />
+    </Key>
+    <Property Name="IdTest" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Thema" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Question1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Question2" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Question3" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Question4" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Question5" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer2" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer3" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer4" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Answer5" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="3" Nullable="false" />
+    <NavigationProperty Name="Articles" Relationship="Database1Model.FK_Articles_ToTable" FromRole="Test" ToRole="Article" />
+    <NavigationProperty Name="Comments" Relationship="Database1Model.FK_Comments_ToTable" FromRole="Test" ToRole="Comment" />
+  </EntityType>
+  <Association Name="FK_Articles_ToTable">
+    <End Type="Database1Model.Test" Role="Test" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Database1Model.Article" Role="Article" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="IdTest" />
+      </Principal>
+      <Dependent Role="Article">
+        <PropertyRef Name="idTest" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_ToTable">
+    <End Type="Database1Model.Test" Role="Test" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Database1Model.Comment" Role="Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="IdTest" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="idTest" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="IsTypeOf(Database1Model.Article)">
+        <MappingFragment StoreEntitySet="Articles">
+          <ScalarProperty Name="IdArticle" ColumnName="IdArticle" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="thema" ColumnName="thema" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="dataAdd" ColumnName="dataAdd" />
+          <ScalarProperty Name="idTest" ColumnName="idTest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="IsTypeOf(Database1Model.Comment)">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="Answer5" ColumnName="Answer5" />
+          <ScalarProperty Name="Answer4" ColumnName="Answer4" />
+          <ScalarProperty Name="Answer3" ColumnName="Answer3" />
+          <ScalarProperty Name="Answer2" ColumnName="Answer2" />
+          <ScalarProperty Name="Answer1" ColumnName="Answer1" />
+          <ScalarProperty Name="IdComment" ColumnName="IdComment" />
+          <ScalarProperty Name="dataAdd" ColumnName="dataAdd" />
+          <ScalarProperty Name="idTest" ColumnName="idTest" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Mark" ColumnName="Mark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tests">
+      <EntityTypeMapping TypeName="Database1Model.Test">
+        <MappingFragment StoreEntitySet="Test">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Answer5" ColumnName="Answer5" />
+          <ScalarProperty Name="Answer4" ColumnName="Answer4" />
+          <ScalarProperty Name="Answer3" ColumnName="Answer3" />
+          <ScalarProperty Name="Answer2" ColumnName="Answer2" />
+          <ScalarProperty Name="Answer1" ColumnName="Answer1" />
+          <ScalarProperty Name="Question5" ColumnName="Question5" />
+          <ScalarProperty Name="Question4" ColumnName="Question4" />
+          <ScalarProperty Name="Question3" ColumnName="Question3" />
+          <ScalarProperty Name="Question2" ColumnName="Question2" />
+          <ScalarProperty Name="Question1" ColumnName="Question1" />
+          <ScalarProperty Name="Thema" ColumnName="Thema" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdTest" ColumnName="IdTest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

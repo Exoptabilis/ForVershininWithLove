@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Kyrsach.Models.Test>
+@using Kyrsach.Controllers
+@using Kyrsach.Models
+
+<td>
+    @Html.ActionLink("Добавить тест", "Create", "Test")
+</td>
+
+<table>
+    <tr>
+        <th>
+            Название теста
+        </th>
+        <th>
+            Тема
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thema)
+        </td>
+        <td>
+            @Html.ActionLink("Пройти", "Details", new { id = item.IdTest }) |
+            @Html.ActionLink("Изменить", "Edit", new {  id=item.IdTest  }) |
+            @Html.ActionLink("Удалить", "Delete", new {  id=item.IdTest   })
+        </td>
+    </tr>
+}
+</table>
+

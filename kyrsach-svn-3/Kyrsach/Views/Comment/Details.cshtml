@@ -1,0 +1,46 @@
+﻿@model Kyrsach.Models.Comment
+    <table>
+        <tr>
+            <th>
+                Правильный Ответ:@Html.Label(Model.Test.Answer1)
+            </th>
+            <th>
+                Правильный Ответ:@Html.Label(Model.Test.Answer2)
+            </th>
+            <th>
+                Правильный Ответ:@Html.Label(Model.Test.Answer3)
+            </th>
+            <th>
+                Правильный Ответ:@Html.Label(Model.Test.Answer4)
+            </th>
+            <th>
+                Правильный Ответ:@Html.Label(Model.Test.Answer5)
+            </th>
+        </tr>
+            <tr>
+                <th>
+                   Ответ ученика:@Html.Label(Model.Answer1)
+                </th>
+                <th>
+                   Ответ ученика:@Html.Label(Model.Answer2)
+                </th>
+                <th>
+                    Ответ ученика: @Html.Label(Model.Answer3)
+                </th>
+                <th>
+                    Ответ ученика: @Html.Label(Model.Answer4)
+                </th>
+                <th>
+                    Ответ ученика:  @Html.Label(Model.Answer5)
+                </th>
+            </tr>
+    </table>
+    <div>
+         Оценка, выставленная машиной: @Html.Label(Model.Mark.ToString())
+    </div>
+    <div>
+        @Html.ActionLink("Поставить оценку вручную", "Edit", new { id = Model.IdComment })
+    </div>    
+    <div>
+        @Html.ActionLink("Назад", "Index")
+    </div>
